@@ -63,10 +63,25 @@
     <ClCompile Include="Shapes\RimDrawingCoordinator.cpp">
       <Filter>Shapes</Filter>
     </ClCompile>
+    <ClCompile Include="Shapes\Basic\ImageBackground.cpp">
+      <Filter>Shapes\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes\Basic\ImageHand.cpp">
+      <Filter>Shapes\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes\Basic\ImageRim.cpp">
+      <Filter>Shapes\Basic</Filter>
+    </ClCompile>
     <ClCompile Include="Shapes\Basic\LineHand.cpp">
       <Filter>Shapes\Basic</Filter>
     </ClCompile>
     <ClCompile Include="Shapes\Basic\PathHand.cpp">
+      <Filter>Shapes\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes\Basic\StringBackground.cpp">
+      <Filter>Shapes\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes\Basic\StringRim.cpp">
       <Filter>Shapes\Basic</Filter>
     </ClCompile>
     <ClCompile Include="Shapes\Default\FlatBackground.cpp">
@@ -84,10 +99,25 @@
     <ClCompile Include="Shapes\Default\HourNumerals.cpp">
       <Filter>Shapes\Default</Filter>
     </ClCompile>
+    <ClCompile Include="Shapes\Advanced\CapsuleHand.cpp">
+      <Filter>Shapes\Advanced</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes\Advanced\DigitalHand.cpp">
+      <Filter>Shapes\Advanced</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes\Advanced\DotHand.cpp">
+      <Filter>Shapes\Advanced</Filter>
+    </ClCompile>
     <ClCompile Include="Shapes\Advanced\FancyBackground.cpp">
       <Filter>Shapes\Advanced</Filter>
     </ClCompile>
+    <ClCompile Include="Shapes\Advanced\FancySweepHand.cpp">
+      <Filter>Shapes\Advanced</Filter>
+    </ClCompile>
     <ClCompile Include="Shapes\Advanced\NibHand.cpp">
+      <Filter>Shapes\Advanced</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes\Advanced\SlotHand.cpp">
       <Filter>Shapes\Advanced</Filter>
     </ClCompile>
     <ClCompile Include="Templates\BlackTemplate.cpp">
@@ -137,10 +167,25 @@
     <ClInclude Include="Shapes\TimeComponent.h">
       <Filter>Shapes</Filter>
     </ClInclude>
+    <ClInclude Include="Shapes\Basic\ImageBackground.h">
+      <Filter>Shapes\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes\Basic\ImageHand.h">
+      <Filter>Shapes\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes\Basic\ImageRim.h">
+      <Filter>Shapes\Basic</Filter>
+    </ClInclude>
     <ClInclude Include="Shapes\Basic\LineHand.h">
       <Filter>Shapes\Basic</Filter>
     </ClInclude>
     <ClInclude Include="Shapes\Basic\PathHand.h">
+      <Filter>Shapes\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes\Basic\StringBackground.h">
+      <Filter>Shapes\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes\Basic\StringRim.h">
       <Filter>Shapes\Basic</Filter>
     </ClInclude>
     <ClInclude Include="Shapes\Default\FlatBackground.h">
@@ -158,10 +203,25 @@
     <ClInclude Include="Shapes\Default\HourNumerals.h">
       <Filter>Shapes\Default</Filter>
     </ClInclude>
+    <ClInclude Include="Shapes\Advanced\CapsuleHand.h">
+      <Filter>Shapes\Advanced</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes\Advanced\DigitalHand.h">
+      <Filter>Shapes\Advanced</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes\Advanced\DotHand.h">
+      <Filter>Shapes\Advanced</Filter>
+    </ClInclude>
     <ClInclude Include="Shapes\Advanced\FancyBackground.h">
       <Filter>Shapes\Advanced</Filter>
     </ClInclude>
+    <ClInclude Include="Shapes\Advanced\FancySweepHand.h">
+      <Filter>Shapes\Advanced</Filter>
+    </ClInclude>
     <ClInclude Include="Shapes\Advanced\NibHand.h">
+      <Filter>Shapes\Advanced</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes\Advanced\SlotHand.h">
       <Filter>Shapes\Advanced</Filter>
     </ClInclude>
     <ClInclude Include="Templates\TemplateBase.h">

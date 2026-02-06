@@ -20,10 +20,20 @@ set(SOURCES
     Shapes/Default/Pin.cpp
     Shapes/Default/Ticks.cpp
     Shapes/Default/HourNumerals.cpp
+    Shapes/Basic/ImageBackground.cpp
+    Shapes/Basic/ImageHand.cpp
+    Shapes/Basic/ImageRim.cpp
     Shapes/Basic/LineHand.cpp
     Shapes/Basic/PathHand.cpp
+    Shapes/Basic/StringBackground.cpp
+    Shapes/Basic/StringRim.cpp
+    Shapes/Advanced/CapsuleHand.cpp
+    Shapes/Advanced/DigitalHand.cpp
+    Shapes/Advanced/DotHand.cpp
     Shapes/Advanced/FancyBackground.cpp
+    Shapes/Advanced/FancySweepHand.cpp
     Shapes/Advanced/NibHand.cpp
+    Shapes/Advanced/SlotHand.cpp
     Templates/BlackTemplate.cpp
     Templates/FancyTemplate.cpp
 )
@@ -47,10 +57,20 @@ set(HEADERS
     Shapes/Default/Pin.h
     Shapes/Default/Ticks.h
     Shapes/Default/HourNumerals.h
+    Shapes/Basic/ImageBackground.h
+    Shapes/Basic/ImageHand.h
+    Shapes/Basic/ImageRim.h
     Shapes/Basic/LineHand.h
     Shapes/Basic/PathHand.h
+    Shapes/Basic/StringBackground.h
+    Shapes/Basic/StringRim.h
+    Shapes/Advanced/CapsuleHand.h
+    Shapes/Advanced/DigitalHand.h
+    Shapes/Advanced/DotHand.h
     Shapes/Advanced/FancyBackground.h
+    Shapes/Advanced/FancySweepHand.h
     Shapes/Advanced/NibHand.h
+    Shapes/Advanced/SlotHand.h
     Templates/TemplateBase.h
     Templates/BlackTemplate.h
     Templates/FancyTemplate.h

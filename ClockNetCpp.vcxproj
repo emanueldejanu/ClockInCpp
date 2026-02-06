@@ -161,10 +161,20 @@
   <ItemGroup>
     <ClCompile Include="ClockControl.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Shapes\Basic\ImageBackground.cpp" />
+    <ClCompile Include="Shapes\Basic\ImageHand.cpp" />
+    <ClCompile Include="Shapes\Basic\ImageRim.cpp" />
     <ClCompile Include="Shapes\Basic\LineHand.cpp" />
     <ClCompile Include="Shapes\Basic\PathHand.cpp" />
+    <ClCompile Include="Shapes\Basic\StringBackground.cpp" />
+    <ClCompile Include="Shapes\Basic\StringRim.cpp" />
+    <ClCompile Include="Shapes\Advanced\CapsuleHand.cpp" />
+    <ClCompile Include="Shapes\Advanced\DigitalHand.cpp" />
+    <ClCompile Include="Shapes\Advanced\DotHand.cpp" />
     <ClCompile Include="Shapes\Advanced\FancyBackground.cpp" />
+    <ClCompile Include="Shapes\Advanced\FancySweepHand.cpp" />
     <ClCompile Include="Shapes\Advanced\NibHand.cpp" />
+    <ClCompile Include="Shapes\Advanced\SlotHand.cpp" />
     <ClCompile Include="Shapes\Default\DiamondHand.cpp" />
     <ClCompile Include="Shapes\Default\FlatBackground.cpp" />
     <ClCompile Include="Shapes\Default\HourNumerals.cpp" />
@@ -182,10 +192,20 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ClockControl.h" />
+    <ClInclude Include="Shapes\Basic\ImageBackground.h" />
+    <ClInclude Include="Shapes\Basic\ImageHand.h" />
+    <ClInclude Include="Shapes\Basic\ImageRim.h" />
     <ClInclude Include="Shapes\Basic\LineHand.h" />
     <ClInclude Include="Shapes\Basic\PathHand.h" />
+    <ClInclude Include="Shapes\Basic\StringBackground.h" />
+    <ClInclude Include="Shapes\Basic\StringRim.h" />
+    <ClInclude Include="Shapes\Advanced\CapsuleHand.h" />
+    <ClInclude Include="Shapes\Advanced\DigitalHand.h" />
+    <ClInclude Include="Shapes\Advanced\DotHand.h" />
     <ClInclude Include="Shapes\Advanced\FancyBackground.h" />
+    <ClInclude Include="Shapes\Advanced\FancySweepHand.h" />
     <ClInclude Include="Shapes\Advanced\NibHand.h" />
+    <ClInclude Include="Shapes\Advanced\SlotHand.h" />
     <ClInclude Include="Shapes\ClockDrawingContext.h" />
     <ClInclude Include="Shapes\Default\DiamondHand.h" />
     <ClInclude Include="Shapes\Default\FlatBackground.h" />
