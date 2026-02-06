@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shapes">
+      <UniqueIdentifier>{D7A2C1B3-E4F5-4A6B-8C9D-7E6F5A4B3C2D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shapes\Basic">
+      <UniqueIdentifier>{E8B3D2C4-F5A6-4B7C-9D8E-7F6A5B4C3D2E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shapes\Default">
+      <UniqueIdentifier>{F9C4E3D5-A6B7-4C8D-9E7F-6A5B4C3D2E1F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shapes\Advanced">
+      <UniqueIdentifier>{A1D5F4E6-B7C8-4D9E-7F6A-5B4C3D2E1F0A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Templates">
+      <UniqueIdentifier>{B2E6A5F7-C8D9-4E7F-6A5B-4C3D2E1F0A1B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{C3F7B6A8-D9E7-4F6A-5B4C-3D2E1F0A1B2C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Documentation">
+      <UniqueIdentifier>{D4A8C7B9-E7F6-4A5B-4C3D-2E1F0A1B2C3D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClockControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes\ShapeBase.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes\VectorialShapeBase.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes\HandBase.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes\VectorialHandBase.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes\RimBase.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes\VectorialRimBase.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes\RimDrawingCoordinator.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes\Basic\LineHand.cpp">
+      <Filter>Shapes\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes\Basic\PathHand.cpp">
+      <Filter>Shapes\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes\Default\FlatBackground.cpp">
+      <Filter>Shapes\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes\Default\DiamondHand.cpp">
+      <Filter>Shapes\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes\Default\Pin.cpp">
+      <Filter>Shapes\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes\Default\Ticks.cpp">
+      <Filter>Shapes\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes\Default\HourNumerals.cpp">
+      <Filter>Shapes\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes\Advanced\FancyBackground.cpp">
+      <Filter>Shapes\Advanced</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes\Advanced\NibHand.cpp">
+      <Filter>Shapes\Advanced</Filter>
+    </ClCompile>
+    <ClCompile Include="Templates\BlackTemplate.cpp">
+      <Filter>Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="Templates\FancyTemplate.cpp">
+      <Filter>Templates</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ClockControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes\IShape.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes\ClockDrawingContext.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes\ShapeBase.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes\VectorialShapeBase.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes\HandBase.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes\VectorialHandBase.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes\IRim.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes\RimBase.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes\VectorialRimBase.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes\RimDrawingCoordinator.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes\RimItemOrientation.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes\TimeComponent.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes\Basic\LineHand.h">
+      <Filter>Shapes\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes\Basic\PathHand.h">
+      <Filter>Shapes\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes\Default\FlatBackground.h">
+      <Filter>Shapes\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes\Default\DiamondHand.h">
+      <Filter>Shapes\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes\Default\Pin.h">
+      <Filter>Shapes\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes\Default\Ticks.h">
+      <Filter>Shapes\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes\Default\HourNumerals.h">
+      <Filter>Shapes\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes\Advanced\FancyBackground.h">
+      <Filter>Shapes\Advanced</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes\Advanced\NibHand.h">
+      <Filter>Shapes\Advanced</Filter>
+    </ClInclude>
+    <ClInclude Include="Templates\TemplateBase.h">
+      <Filter>Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="Templates\BlackTemplate.h">
+      <Filter>Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="Templates\FancyTemplate.h">
+      <Filter>Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\ColorExtensions.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md">
+      <Filter>Documentation</Filter>
+    </None>
+    <None Include="QUICKSTART.md">
+      <Filter>Documentation</Filter>
+    </None>
+    <None Include="IMPLEMENTATION_STATUS.md">
+      <Filter>Documentation</Filter>
+    </None>
+    <None Include="CMakeLists.txt">
+      <Filter>Documentation</Filter>
+    </None>
+    <None Include="build.bat">
+      <Filter>Documentation</Filter>
+    </None>
+  </ItemGroup>
+</Project>
